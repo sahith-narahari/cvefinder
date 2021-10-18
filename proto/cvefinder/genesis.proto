@@ -1,0 +1,11 @@
+syntax = "proto3";
+package noandrea.cvefinder.cvefinder;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/noandrea/cvefinder/x/cvefinder/types";
+
+// GenesisState defines the cvefinder module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
